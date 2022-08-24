@@ -25,11 +25,11 @@
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development",
-    "start": "webpack serve --open"
-  },
+"scripts": {
+  "dev": "webpack --mode development",
+  "build": "webpack --mode production",
+  "start": "webpack --config webpack.config.js --watch"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/melashu/Leaderboard.git"
