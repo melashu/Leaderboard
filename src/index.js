@@ -1,7 +1,6 @@
 import "../css/style.css";
-import leaderboardAPI from "../module/APIImp";
+import {addScore,getScore} from "../module/APIImp";
 import { displayAllScore, displayEachScore } from "../module/UI";
-
 
 document
   .querySelector(".form-add-score")
@@ -10,7 +9,7 @@ document
     const name = document.querySelector(".name").value;
     const score = document.querySelector(".score").value;
 
-    await leaderboardAPI.addScore({
+    await addScore({
       user: name,
       score: score,
     });
@@ -20,14 +19,14 @@ document
     });
   });
 
-document.addEventListener("DOMContentLoaded", async (e) => {
-  const result = await leaderboardAPI.getScore();
+document.addEventListener("DOMContentLoaded", async () => {
+  const result = await getScore();
   displayAllScore(result);
 });
 
-document.querySelector(".refresh").addEventListener("click", async (e) => {
+document.querySelector(".refresh").addEventListener("click", async () => {
   const table = document.querySelector(".score-table");
-  table.innerHTML = '';
-  const result = await leaderboardAPI.getScore();
+  table.innerHTML = "";
+  const result = await getScore();
   displayAllScore(result);
 });
