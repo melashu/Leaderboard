@@ -39,11 +39,11 @@ Locate the project folder in the Repository.
 ### Setup 
 - Clone  ```git@github.com:melashu/Leaderboard.git```
 - Run ```npm install```
-- Run ```npm run open``` to run the app on your web browser.
+- Run ```npm run start``` to run the app on your web browser.
 
 # Demo Link
 
-[Go Live]()
+[Go Live](#)
 
 ### Deployment
   Project reside in this Repo. You can clone the repo or download the files manually to your local machine.
