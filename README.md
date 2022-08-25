@@ -43,7 +43,7 @@ Locate the project folder in the Repository.
 
 # Demo Link
 
-[Go Live](#)
+[Go Live](https://melashu.github.io/Leaderboard/)
 
 ### Deployment
   Project reside in this Repo. You can clone the repo or download the files manually to your local machine.
