@@ -13,4 +13,4 @@ const displayEachScore = async (score) => {
   table.appendChild(tr);
 };
 
-module.exports = { displayAllScore, displayEachScore };
+export  { displayAllScore, displayEachScore };

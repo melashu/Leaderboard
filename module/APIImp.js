@@ -1,9 +1,7 @@
-export default class leaderboardAPI {
-  static url =
-    "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/u7kNvsXmXdu1EXfOu2CH/scores/";
+  const url = "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/u7kNvsXmXdu1EXfOu2CH/scores/";
 
-  static addScore = async (score) => {
-    await fetch(`${this.url}`, {
+  const addScore = async (score) => {
+    await fetch(`${url}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -12,10 +10,10 @@ export default class leaderboardAPI {
     });
   };
 
-  static getScore = async () => {
+  const getScore = async () => {
     let allScore;
     try {
-      const result = await fetch(`${this.url}`, {
+      const result = await fetch(`${url}`, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -27,4 +25,4 @@ export default class leaderboardAPI {
     }
     return allScore;
   };
-}
+export { addScore, getScore };
