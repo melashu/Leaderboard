@@ -8,6 +8,10 @@
 - Learn how to use proper ES6 syntax.
 - Use ES6 modules to write modular JavaScript.
 - Use webpack to bundle JavaScript.
+- Send and receive data from an API.
+- Use API documentation.
+- Understand and use JSON.
+- Make JavaScript code asynchronous using ```async``` and ```await```.
 
 ## Built With
 
@@ -18,9 +22,6 @@
 - Git/GitHub work-flow
 - VSCODE
 
-# Demo Link
-
-#Coming soon!
 
 ## Getting Started
 
@@ -36,9 +37,13 @@ Locate the project folder in the Repository.
 - Configer webpack.config.js as well
 
 ### Setup 
-- Clone the repositior ```git@github.com:melashu/Leaderboard.git```
-- Run ```npm install``
-- Run ```npm run open``` to run the app on your web browser.
+- Clone  ```git@github.com:melashu/Leaderboard.git```
+- Run ```npm install```
+- Run ```npm run start``` to run the app on your web browser.
+
+# Demo Link
+
+[Go Live](#)
 
 ### Deployment
   Project reside in this Repo. You can clone the repo or download the files manually to your local machine.

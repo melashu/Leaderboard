@@ -2,6 +2,8 @@ import "../css/style.css";
 import {addScore,getScore} from "../module/APIImp";
 import { displayAllScore, displayEachScore } from "../module/UI";
 
+  const table = document.querySelector(".score-table");
+
 document
   .querySelector(".form-add-score")
   .addEventListener("submit", async (e) => {
@@ -20,12 +22,13 @@ document
   });
 
 document.addEventListener("DOMContentLoaded", async () => {
+  table.innerHTML = "";
+
   const result = await getScore();
   displayAllScore(result);
 });
 
 document.querySelector(".refresh").addEventListener("click", async () => {
-  const table = document.querySelector(".score-table");
   table.innerHTML = "";
   const result = await getScore();
   displayAllScore(result);

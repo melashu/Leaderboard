@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
@@ -29,7 +30,8 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -40,5 +42,5 @@
   "bugs": {
     "url": "https://github.com/melashu/Leaderboard/issues"
   },
-  "homepage": "https://github.com/melashu/Leaderboard#readme"
+  "homepage": "https://github.com/melashu/Leaderboard"
 }

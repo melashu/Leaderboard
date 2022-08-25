@@ -4,15 +4,21 @@
 }
 
 main {
-  width: 60%;
-  margin: 0 auto;
+  width: 65%;
+  margin: 24px auto;
   padding: 24px 18px;
+  box-sizing: border-box;
 }
 
 .main-title {
   font-weight: bold;
   font-size: 2em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 section {
@@ -35,6 +41,7 @@ button {
   border-top: 2px solid #333;
   border-bottom: 5px solid #333;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .score-table {
@@ -48,13 +55,14 @@ tr:nth-child(odd) {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #b9b8b8;
   color: #000;
 }
 
 td {
   padding: 5px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .add-score h2 {
@@ -72,7 +80,7 @@ td {
 }
 
 input {
-  width: 90%;
+  width: 80%;
   padding: 5px;
   font-weight: bold;
   border: #333 solid 3px;
