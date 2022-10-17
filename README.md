@@ -1,6 +1,6 @@
 
 # **Leaderboard**
-> This project designed to implement Leaderboard game using Leaderboard API, Webpack and ES
+> This project designed to implement Leaderboard game using Leaderboard API, Webpack and ES6. 
 
 # Objective of the project
 
