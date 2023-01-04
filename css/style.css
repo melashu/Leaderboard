@@ -8,11 +8,15 @@ main {
   margin: 24px auto;
   padding: 24px 18px;
   box-sizing: border-box;
+  min-height: 80vh;
 }
 
 .main-title {
   font-weight: bold;
   font-size: 2em;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 5px solid #1c6ea4;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -36,15 +40,19 @@ section {
 
 button {
   padding: 3px;
-  border-left: 2px solid #333;
-  border-right: 5px solid #333;
-  border-top: 2px solid #333;
-  border-bottom: 5px solid #333;
+  border: none;
+  outline: none;
+  margin: 3px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #1c6ea4;
   cursor: pointer;
   font-weight: bold;
+  width: 100px;
+  height: 35px;
 }
 
-.score-table {
+.table-container {
   border: 3px #333 solid;
   width: 100%;
   margin-top: 18px;
@@ -63,6 +71,7 @@ td {
   padding: 5px;
   font-weight: bold;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .add-score h2 {
@@ -88,4 +97,10 @@ input {
 
 input::placeholder {
   color: #000;
+}
+
+footer {
+  text-align: center;
+  border-top: 5px solid #1c6ea4;
+  padding: 10px;
 }
