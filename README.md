@@ -1,80 +1,127 @@
 
-# **Leaderboard**
-> This project designed to implement Leaderboard game using Leaderboard API, Webpack and ES6. 
+# Leaderboard Game
 
-# Objective of the project
+<a name="readme-top"></a>
+<div align="center">
+  <img src="https://github.com/microverseinc/readme-template/raw/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+</div>
 
-- Use callbacks and promises.
-- Learn how to use proper ES6 syntax.
-- Use ES6 modules to write modular JavaScript.
-- Use webpack to bundle JavaScript.
-- Send and receive data from an API.
-- Use API documentation.
-- Understand and use JSON.
-- Make JavaScript code asynchronous using ```async``` and ```await```.
+# 📗 Table of Contents
 
-## Built With
+- [Leaderboard Game](#leaderboard-game)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Leaderboard Game ](#-leaderboard-game-)
+  - [🛠 Built With ](#-built-with-)
+  - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🔴 Live Demo](#-live-demo)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [📝 License](#-license)
 
-- HTML and CSS
-- Modular JavaScript
-- Webpack
-- Linters (Lighthouse, Webhint, Stylelint, Eslint)
-- Git/GitHub work-flow
-- VSCODE
+# 📖 Leaderboard Game <a name="about-project"></a>
+
+This app is designed using Leaderboard API. It enables the players to record their name and score value. Users can see their previous score's and current score values. 
 
 
-## Getting Started
+## 🛠 Built With <a name="built-with"></a>
 
-To get a local copy up and running follow these simple example steps.
-Locate the project folder in the Repository.
+- HTML
+- CSS 
+- JavaScript
+- ES6
 
+## Key Features <a name="key-features"></a>
+
+> The key features of this app.
+
+-  Record the players name and score.
+-  Display the players previous score's and current score values.
+-  Keep the record permanently using the API.
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 ### Prerequisites
 
-- Install Node.js to use NPM package manager 
-- Install webpack, webpack-dev-server
-- Install html-webpack-plugin 
-- Install CSS-loader and style loader 
-- Configer webpack.config.js as well
+- Install node package manager. [Download Node](https://nodejs.org/dist/v18.12.1/node-v18.12.1-x64.msi).
+- Install Vscode [Download VScode](https://code.visualstudio.com/download#).
 
-### Setup 
-- Clone  ```git@github.com:melashu/Leaderboard.git```
-- Run ```npm install```
+### Setup
+
+Open your vscode then
+
+Open your terminal
+
+Clone this repository to your desired folder
+
+`git clone https://github.com/melashu/Leaderboard.git`
+
+**Then run**
+
+cd `Leaderboard`
+
+### Usage
+
+- Run ```npm install```.
 - Run ```npm run start``` to run the app on your web browser.
 
-# Demo Link
+## 👥 Authors <a name="authors"></a>
 
+👤 Melashu Amare
+
+- GitHub: [@melashu](https://github.com/melashu)
+- Twitter: [@meshu102](https://twitter.com/meshu102)
+- LinkedIn: [Melashu Amare](https://www.linkedin.com/in/melashu-amare/)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+In the future I need to improve the following features.
+ 
+- [ ] **Add responsiveness features.**
+
+## 🔴 Live Demo
 [Go Live](https://melashu.github.io/Leaderboard/)
 
-### Deployment
-  Project reside in this Repo. You can clone the repo or download the files manually to your local machine.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-### Author 
-👤 **Meshu**
+- To Microverse crew.
+- To Project Designer  [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- To creaters of [Icons8](icons8.com/icons).
+- To my coding partner [Amtresu](https://github.com/Amtresu) and my morning session Team. 
+- To my Code Reviewer.
 
-- Github:[@melashu](https://github.com/melashu)
-- Twitter: [@meshu102](https://twitter.com/meshu102)
- 
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page.](https://github.com/melashu/Leaderboard/issues)
 
-## Show your support
+## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- To the content create of webpack 
-- To Leaderboard API provider 
-- To coding partner
-- My morning session partner 
-- My reviewer
-
-## Screenshot 
-
+Give a star if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+
+
 
