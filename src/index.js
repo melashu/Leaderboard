@@ -1,8 +1,8 @@
 import "../css/style.css";
-import {addScore,getScore} from "../module/APIImp";
+import { addScore, getScore } from "../module/APIImp";
 import { displayAllScore, displayEachScore } from "../module/UI";
 
-  const table = document.querySelector(".score-table");
+const table = document.querySelector(".table-body");
 
 document
   .querySelector(".form-add-score")
@@ -15,6 +15,7 @@ document
       user: name,
       score: score,
     });
+
     displayEachScore({
       user: name,
       score: score,
@@ -32,4 +33,8 @@ document.querySelector(".refresh").addEventListener("click", async () => {
   table.innerHTML = "";
   const result = await getScore();
   displayAllScore(result);
+});
+
+document.getElementById("close-result").addEventListener('click', () => {
+  document.getElementById("result-container").style.display = "none";
 });

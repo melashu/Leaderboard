@@ -1,4 +1,4 @@
-const table = document.querySelector(".score-table");
+const table = document.querySelector(".table-body");
 
 const displayAllScore = (allScore) => {
   for (const score of allScore) {
