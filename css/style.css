@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 header {
   padding: 10px;
   background-color: #1c6ea4;
@@ -32,6 +33,7 @@ main {
 .main-title {
   display: none;
 }
+
 .logo {
   font-weight: bold;
   font-size: 2em;
@@ -60,6 +62,7 @@ section {
 .recent-score {
   flex: 1.5;
 }
+
 .add-score {
   flex: 1;
 }
@@ -84,9 +87,11 @@ button {
   width: 100px;
   height: 35px;
 }
+
 button:hover {
   transform: scale(1.1);
 }
+
 .table-container {
   border: 1px #333 solid;
   width: 100%;
@@ -95,7 +100,6 @@ button:hover {
 
 .table-body tr:nth-child(odd) {
   background-color: #fff;
-
   padding: 8px;
 }
 
@@ -103,6 +107,7 @@ button:hover {
   background-color: #b9b8b8;
   color: #000;
 }
+
 .table-header tr {
   background-color: #1c6ea4;
   height: 45px;
@@ -169,6 +174,7 @@ input {
   outline: none;
   border-radius: 18px;
 }
+
 input:focus {
   border: #202020 solid 3px;
 }
