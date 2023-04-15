@@ -40,13 +40,15 @@ main {
   text-align: center;
   padding: 10px;
   color: #fff;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: 
+  "Trebuchet MS", sans-serif;
 }
 
 h2 {
   font-weight: 600;
   color: #fff;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: 
+  "Trebuchet MS", sans-serif;
 }
 
 section {
@@ -93,6 +95,12 @@ button:hover {
   margin-top: 18px;
 }
 
+.table-header tr {
+  background-color: #1c6ea4;
+  height: 45px;
+  color: #fff;
+}
+
 .table-body tr:nth-child(odd) {
   background-color: #fff;
   padding: 8px;
@@ -101,12 +109,6 @@ button:hover {
 .table-body tr:nth-child(even) {
   background-color: #b9b8b8;
   color: #000;
-}
-
-.table-header tr {
-  background-color: #1c6ea4;
-  height: 45px;
-  color: #fff;
 }
 
 .table-body tr:hover {
@@ -188,7 +190,8 @@ footer {
     text-align: center;
     padding: 10px;
     color: #fff;
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: 
+    "Trebuchet MS", sans-serif;
   }
 
   section {
