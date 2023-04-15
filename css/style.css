@@ -40,22 +40,18 @@ main {
   text-align: center;
   padding: 10px;
   color: #fff;
-  font-family: "Trebuchet MS" sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 h2 {
   font-weight: 600;
   color: #fff;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 section {
   display: flex;
-  justify-content: baseline;
   flex-direction: column;
-  /* grid-template-columns: 1.5fr 1fr;
-  column-gap: 24px; */
 }
 
 .recent-score {
@@ -145,7 +141,7 @@ th {
 
 #close-result {
   background-color: #d4edda;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   width: 18px;
   cursor: pointer;
   height: 18px;
@@ -192,8 +188,7 @@ footer {
     text-align: center;
     padding: 10px;
     color: #fff;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
   }
 
   section {
