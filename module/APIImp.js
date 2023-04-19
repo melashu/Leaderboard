@@ -1,9 +1,11 @@
 const url =
-  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/u7kNvsXmXdu1EXfOu2CH/scores/";
+  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ci2jKI0c4Ay0PkcHKOyO/scores/";
 
 const addScore = async (score) => {
   const result = document.getElementById("result");
   const container = document.getElementById("result-container");
+  container.style.display = "flex";
+  result.innerText = "Wait...";
   await fetch(`${url}`, {
     method: "POST",
     headers: {
@@ -13,7 +15,7 @@ const addScore = async (score) => {
   });
   document.querySelector(".name").value = "";
   document.querySelector(".score").value = "";
-  container.style.display = "block";
+  // container.style.display = "flex";
   result.innerText = "You successfully added your score!";
 };
 
