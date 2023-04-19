@@ -35,6 +35,6 @@ document.querySelector(".refresh").addEventListener("click", async () => {
   displayAllScore(result);
 });
 
-document.getElementById("close-result").addEventListener('click', () => {
+document.getElementById("close-result").addEventListener("click", () => {
   document.getElementById("result-container").style.display = "none";
 });
