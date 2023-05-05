@@ -15,7 +15,6 @@ const addScore = async (score) => {
   });
   document.querySelector(".name").value = "";
   document.querySelector(".score").value = "";
-  // container.style.display = "flex";
   result.innerText = "You successfully added your score!";
 };
 

@@ -11,7 +11,6 @@
   "name": "leaderboard",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.9",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
